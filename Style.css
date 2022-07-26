@@ -13,6 +13,7 @@ body{
     align-items: center;
     flex-direction: column;
     height: 100vh;
+    overflow: hidden;
 }
 
 .content{
@@ -124,6 +125,8 @@ body{
     flex-direction: column;
     align-content: flex-end;
     transform: rotateZ(180deg);
+    position: relative;
+    top: -5px;
 }
 
 .heartbottom{
@@ -175,13 +178,15 @@ body{
     font-size: 50px;
 }
 
-.icons-bottom2{
+.icons-bottom2 {
     margin-right: 10px;
     margin-bottom: 10px;
     display: flex;
     flex-direction: column;
     align-content: flex-end;
     transform: rotateZ(180deg);
+    position: relative;
+    top: -5px;
 }
 
 .heartbottom2{
@@ -195,4 +200,103 @@ body{
     position: relative;
     left: 5px;
     font-weight: 500;
+}
+
+@media only screen and (max-width: 768px) {
+    .card{
+        height: 350px;
+        width: 220px;
+    }
+    .card2{
+        height: 350px;
+        width: 220px;
+    }
+    
+    .A-top{
+        font-size: 25px;
+    
+    }
+    .A-bottom{
+        font-size: 25px;
+    
+    }
+    .A-top2{
+        font-size: 25px;
+    
+    }
+    .A-bottom2{
+        font-size: 25px;
+    
+    }
+    
+    .hearttop{
+        font-size: 25px;
+    }
+    .hearttop2{
+        font-size: 25px;
+    }
+    .heartbottom{
+        font-size: 25px;
+    }
+    .heartbottom2{
+        font-size: 25px;
+    }
+    
+    .heart{
+        font-size: 45px;
+    }
+    .heart2{
+        font-size: 45px;
+    }
+    
+}
+
+@media only screen and (max-width: 425px) {
+    .card{
+        height: 300px;
+        width: 200px;
+    }
+    .card2{
+        height: 300px;
+        width: 200px;
+    }
+    
+    .A-top{
+        font-size: 20px;
+    
+    }
+    .A-bottom{
+        font-size: 20px;
+    
+    }
+    .A-top2{
+        font-size: 20px;
+    
+    }
+    .A-bottom2{
+        font-size: 20px;
+    
+    }
+    
+    .hearttop{
+        font-size: 20px;
+    }
+    .hearttop2{
+        font-size: 20px;
+    }
+
+    .heartbottom{
+        font-size: 20px;
+    }
+    .heartbottom2{
+        font-size: 20px;
+    }
+
+    .heart{
+        font-size: 35px;
+    }
+    .heart2{
+        font-size: 35px;
+    }
+    
 }
